@@ -1,3 +1,5 @@
+Bus Ticket Booking with Seat Reservation
+By MagePeople Team
 
 Description
 This is one of the best and simple bus booking plugin in WordPress directory, Its used Woocommerce for making payment so Its freedom to use any payment gateway via WooCommerce. This plugin will run with Woocommerce but it will work as event post it will not take any effect on woocommerce products so if you want you can sale your product along with it.
