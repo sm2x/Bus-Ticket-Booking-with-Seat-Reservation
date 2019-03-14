@@ -1,0 +1,478 @@
+
+.inside .sec {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 15px 0;
+}
+.sec label {
+    font-size: 16px;
+    font-weight: bold;
+}
+.mep_status .active {
+  background: green none repeat scroll 0 0;
+  color: #fff;
+  padding: 6px 10px;
+}
+.mep_status .err {
+  background: red none repeat scroll 0 0;
+  color: #fff;
+  padding: 6px 10px;
+}
+#mep_uid {
+  width: 65px;
+}
+.inside .sec input {
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 100%;
+  color: #000;
+}
+.inside .sec label {
+  font-weight: normal;
+  display: block;
+}
+table.atendee-info {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 250px;
+}
+
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+div#mep_event_faq_r {
+    display: block;
+    width: 94%;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.mep-faq-input {
+    width: 100%;
+    display: block;
+    border: 1px solid #8a8a8a;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+div#mep-event-faq-box {
+    overflow: hidden;
+}
+
+a.button.remove-faq-row {
+    /* float: right; */
+    overflow: hidden;
+    display: inline-block;
+}
+.settings_page_mep_event_settings_page h2 {
+    padding-left: 10px;
+}
+.mep-attendee-sec-details span {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: inline-block;
+}
+
+.mep-attendee-sec-details .ea-label {
+    width: 200px!important;
+    font-weight: bold;
+}
+
+.mep-attendee-sec-details .ea-value {
+    width: 68%!important;
+}
+
+.mep-attendee-sec-details .sec {
+    margin: 0;
+}
+div#wbtm-bus-ticket-type {
+    overflow: auto;
+}
+tbody#seat_panel tr td {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody#seat_panel tr td select {
+    display: block;
+        margin: 0 auto;
+}
+
+
+/*Tickets*/
+.wbtm-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 40px auto;
+    width: 600px;
+}
+
+.wbtm-ticket-body table {
+    width: 100%;
+}
+
+.wbtm-ticket-body table tr {
+    border: 1px solid #fbfbfb!important;
+}
+
+.wbtm-ticket-body table tr td {
+    padding: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wbtm-ticket-body table tr td h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+}
+.ticket-search {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.ticket-search h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.ticket-search input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.ticket-search button {
+    background: #676fec;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+span.wbtm-ticket-hold {
+    background: #d0d0d0;
+    padding: 5px 20px;
+}
+span.wbtm-ticket-cancelled {
+    background: #FF0000;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+span.wbtm-ticket-confirm {
+    background: #02792f;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.wp-admin span.wbtm-ticket-confirm, .wp-admin span.wbtm-ticket-hold, .wp-admin span.wbtm-ticket-cancel {
+    padding: 0px 10px;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+
+}
+
+.wbtm-search-form-sec {
+    display: block;
+    overflow: hidden;
+}
+
+.fields-li {
+    display: inline-block;
+}
+
+select.seat_type.select2,
+.leaving-list select {
+    /*padding: 10px 10px;*/
+    font-size: 15px;
+}
+
+.fields-li input {
+    padding: 10px !important;
+    font-size: 16px;
+}
+
+.fields-li button {
+    padding: 10px 30px;
+    font-size: 17px;
+    background: green;
+    border: 0;
+    color: #fff;
+}
+
+ul.search-li {
+    text-align: center;
+}
+
+ul.search-li li {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+ul.search-li li input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul.search-li li button {
+    padding: 12px 20px;
+    background: green;
+    border: 0;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.mep-user-info-sec {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.mep-user-info-sec input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.mep-user-info-sec {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.mep-user-info-sec input {
+    display: block;
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+    width: 100% !important;
+    font-size: 14px;
+}
+.wbtm-search-form-sec.the_select {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px auto;
+   width: 800px;
+}
+.wbtm-search-form-sec.the_select .select2-container {
+    display: block;
+    padding: inherit;
+}
+
+.wbtm-search-form-sec.the_select input {
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.wbtm-search-form-sec.the_select .fields-li {
+    vertical-align: text-bottom;
+}
+
+.wbtm-search-form-sec.the_select button {
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+ul.admin-bus-list li {
+    border: 2px solid #666;
+    padding: 5px;
+    background: #fff;
+}
+
+
+ul.admin-bus-list {}
+
+.admin-bus-list {
+    overflow: hidden;
+    display: block;
+}
+
+ul.admin-bus-list li .bus-name {
+    display: inline-block;
+        width: 19%;
+}
+
+.bus-seat-panel {
+    width: 28%;
+    float: left;
+    overflow: hidden;
+}
+.bus-seat-panel img {
+    margin-bottom: -4px;
+}
+.bus-info-sec {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.leaving-list {
+    width: 33%;
+    float: left;
+    padding-left: 0;
+}
+
+.top-search-section {
+    display: block;
+    overflow: hidden;
+    float: none;
+}
+
+table.selected-seat-list {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table.selected-seat-list tr {
+    border: 1px solid #ddd;
+}
+
+td.no-border.empty-lane {
+    width: 60px;
+}
+
+.leaving-list select {
+    width: 90%;
+    padding: 0;
+}
+
+table.selected-seat-list td {
+    padding: 5px 10px;
+}
+div.admin-bus-details {
+        overflow: hidden;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+table.bus-seats tr td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+table.bus-seats tr {
+    border: 1px solid #ddd;
+}
+.seat-selected-list-fare table {
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+.seat-selected-list-fare table td, .seat-selected-list-fare table th {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+  text-align: left;
+}
+.bus-info-sec h6 {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-size: 15px;
+}
+span.booked-seat {
+    display: block;
+    background: #ddd;
+    padding: 8px;
+}
+span.seat-left {
+    background: #863030;
+    padding: 5px;
+    color: #fff;
+}
+span.confirmed-seat {
+    background: #ff2626;
+    display: block;
+    color: #fff;
+    padding: 8px;
+}
+a.seat_booked {
+    background: green;
+    color: #fff;
+}
+.bus-seats a {
+  display: block;
+  padding: 15px 10px;
+  margin: -10px 0 -10px 0;
+  cursor: pointer;
+}
+
+.bus-seats tr td span {
+  display: block;
+  padding: 15px 10px;
+  margin: -10px 0 -10px 0;
+  /*cursor: pointer;*/
+}
+.mep-hidden {
+    display: none;
+}
